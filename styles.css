@@ -1,0 +1,25 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header{
+  background-color:green;  
+}
+
+.gr{
+  background-color:#cfcfcf;
+}
+
+.logo{
+  background-color:#fff;
+  display:inline-block;
+  float:left;
+  width:180px;
+  height:80px;
+}
+
+.main{
+  background-color:yellow;
+}

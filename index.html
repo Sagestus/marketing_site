@@ -1,25 +1,209 @@
 <html>
+
 <head>
-<title>Моя первая страница</title>
+    <title>KNXpartners</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            /* Гарнитура текста */
+            font-size: 150%;
+            /* Размер шрифта в процентах */
+
+        }
+
+        p {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14pt;
+            /* Размер шрифта в пунктах */
+        }
+
+        .block1 {
+            width: 100%;
+            background: #ccc;
+            padding: 50px;
+            padding-right: 50px;
+            border: solid 0px white;
+            float: left;
+        }
+
+        .block_logo {
+            width: 20%;
+            background: whitesmoke;
+
+            border: 0px white;
+
+        }
+
+        .block_logo1 {
+            width: 100%;
+            background-color: lightgray;
+            margin-left: 20%;
+
+        }
+
+        .layer1 {
+            background-color: white;
+            /* Цвет фона */
+            width: 60%;
+            margin-left: 20px;
+            padding: 10px;
+        }
+
+        .layer2 {
+            margin-left: 20px;
+            /* Отступ слева */
+            background-color: rgba(204, 204, 204, 0.74);
+            /* Цвет фона */
+            padding: 10px;
+            /* Поля вокруг текста */
+            width: 1180px;
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .header{
+            background-color:#cfcfcf; 
+            margin-left: 20px; 
+            width: 60%;
+        }
+
+        .gr{
+            background-color:#cfcfcf;
+        }
+
+        .logo{
+            background-color:#fff;
+            display:inline-block;
+            float:left;
+            width:153px;
+            height:80px;
+            
+        }
+
+        .main{
+            background-color:yellow;
+        }
+    </style>
 </head>
-<body>
-    <center><h1>Создать страницу проще, чем вы думаете</h1></center>
-    Многим может показаться, что создание сайтов дело сложное, даже невыполнимое. Для этого нужно много учиться, узнать, сделать. На самом деле существует около 100 тегов, которые даже не обязательно учить. Важно лишь понять, что и где применяется. Информацию можно подсмотреть в различных шпаргалках, а со временем вы начнете вспоминать теги на автомате.
-<br/><br/>
-    <center><img alt="Компьютер" src="https://pixabay.com/static/uploads/photo/2016/10/14/18/03/workplace-1740807_960_720.jpg"></center>
-<br/><br/>
-    <font style="color:red">Простой код позволяет сделать текст красным</font>
-<br/><br/>
-    <b>Написать жирным не намного сложнее</b>
-<br/><br/>
-    Мы дошли до самого низа
-<br/><br/>
-Теперь вы знаете чуть больше о тегах и можете использовать их. Давайте попробуем вставить ссылочку, чтобы связать несколько страниц воедино.
-<br/><br/>
-<hr>
-К примеру, вот ссылка на мой блог - <a href="http://start-luck.ru/">Start-Luck</a> - рассказывает просто о "сложном".
-<br/><br/>
-Ну вот и все. Ваша первая страница готова
-<br/><br/>
+
+<body bgcolor="lightgray" leftmargin="20" >
+        
+        <div class="clearfix">
+            <div style="width:153px; height:80px; background-color:white; float:left; margin-left: 20px;">
+                <img alt="knxpartner logo" src="pictures/knxpartners_h80.png">
+            </div>
+            <div style="background-color:rgb(201, 201, 201); margin-left: 20px; width:1200px; height:80px; ; "><h2>Our team of experienced coders & software
+                developers help you to grow up smart level of your
+                installations</h2>
+            </div>
+        </div>
+    <!--<div class="layer1" >
+        <img alt="knxpartner logo" src="pictures/knxpartners_h80.png">
+        <h1 >Our team of experienced coders & software
+            developers help you to grow up smart level of your
+            installations.</h1>
+
+
+    </div>
+    -->
+    <!--
+        <div class="layer2">
+
+                <h1>Our team of experienced coders & software developers help you to grow up smart level of your
+                        installations.</h1>
+        </div>
+    <div class="block_logo">
+        <left>
+            <img alt="knxpartner logo" src="pictures/knxpartners_h80.png">
+        </left>
+        <div class="block_logo1"></div>
+    </div>
+    <div class="block1">
+        <center>
+            <h1>Our team of experienced coders & software developers help you to grow up smart level of your
+                installations.</h1>
+        </center>
+    </div>-->
+    <br />
+    <div class="layer2" >
+    <h3>WHAT</h3>
+    <br />
+    <p><b>KNXlevelUP</b> system is our know how: package of industrial PLC with software core Codesys in conjunction
+        with visualization server <a href="http://iridi.com/">Iridium</a> with frontend and backend on JS code. </p>
+    <br />
+    <h3>HOW</h3>
+    <br />
+    <p>- industrial PLC enables us to create systems with increased reliability, which processes scenario logic with
+        unlimited duration. PLC is original KNX device give you advantage of KNX technology.
+        <br />
+        - <a href="http://iridi.com/">Iridium</a> visualization server in different hardware designs enables us to
+        create functionally and graphically tailor-made interfaces,
+        at the same time providing data firewall between KNX, Modbus TCP and AV/HTTP systems and allows to control any
+        IP devices with multi-language interface. </p>
+    <br />
+    <h3>KEY FUNCTIONS</h3>
+    <br />
+    <p><b> - Business Rules Engine (BRE)</b> is KNXlevelUP module, which enables to separate all dependencies,
+        procedures and scenarios into a standalone software or hardware module: simplifies and increases control
+        quality of various modes and scenarios. *
+        <br />
+        <font style="font-size: small" , color="green">*in upcoming release (planed for Q1 of 2019 machine learning is
+            going to be incorporated in this module) </font>
+        <br />
+        - modular PLC is used as an interface between various engineering systems, which operate on different physical
+        buses: KNX, DALI, Modbus, RS-485 and other.
+        <br />
+        - logging system with collects, registers, stores and processes alarms and other events
+        <br />
+        - notifications through email, SMS, SIP call, voice alarm (via multiroom system), Telegram chat via the
+        telegram bot, system logging on user panel
+        <br />
+        - simplified procedure of system debugging for installers with logging in real time to Telegram-channel OR on
+        user panel with visualization.
+        <br />
+        - Bring Your Own Device (BYOD) system is essential technology for residential and commercial spaces based on
+        Iridium visualization.
+        It enables use of interfaces with limitations by roles and time on any smartphone or tablets (for example,
+        guest in a hotel room and use of conference room or mansions).
+        <br />
+        - MS Exchange Server integration - common solution in corporate segment for booking conference rooms from a
+        touch panel or by e-mail. Can be used together with BYOD
+        <br />
+        - storage of data in either local or cloud database with mathematical processing of data.
+        <br />
+        - Ad hoc reports from stored data
+        <br />
+        - A lot of iRidium drivers for variety of device types:
+        <br />
+        AV systems and receivers, projectors, TV, multiroom systems, SIP driver, fingerprint scanners and lot more AND
+        also native drivers: KNX, Modbus, HDL, SIP, Helvar, Crestron, AMX, BACNet
+        <br />
+        We keep developing drivers for new devices. We can also develop drivers for any IP devices on demand, if it has
+        published API.
+        <br />
+    </p>
+
+    <!--<br/><br/>
+        <center><img alt="Компьютер" src="https://pixabay.com/static/uploads/photo/2016/10/14/18/03/workplace-1740807_960_720.jpg"></center>
+    <br/><br/>
+        <font style="color:red">Простой код позволяет сделать текст красным</font>
+    <br/><br/>
+        <b>Написать жирным не намного сложнее</b>
+    <br/><br/>
+        Мы дошли до самого низа
+    <br/><br/>
+    Теперь вы знаете чуть больше о тегах и можете использовать их. Давайте попробуем вставить ссылочку, чтобы связать несколько страниц воедино.
+    <br/><br/>
+    <hr>
+    К примеру, вот ссылка на мой блог - <a href="http://start-luck.ru/">Start-Luck</a> - рассказывает просто о "сложном".
+    <br/><br/>
+    Ну вот и все. Ваша первая страница готова
+    <br/><br/> -->
+    </div>
 </body>
+
 </html>
