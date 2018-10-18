@@ -1,3 +1,4 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 
 <head>
@@ -87,6 +88,9 @@
         .main{
             background-color:yellow;
         }
+        P.fig {
+            text-align: center; /* Выравнивание по центру */
+        }
     </style>
 </head>
 <!-- -->
@@ -133,58 +137,84 @@
     <h3>WHAT</h3>
     <br />
     <p><b>KNXlevelUP</b> system is our know how: package of industrial PLC with software core Codesys in conjunction
-        with visualization server <a href="http://iridi.com/">Iridium</a> with frontend and backend on JS code. </p>
+        with visualization server  <a href="http://iridi.com/">Iridium</a> with frontend and backend on JS code is a flexible and powerfull system with many features that can fulfill any wishes in automation. </p>
     <br />
     <h3>HOW</h3>
     <br />
-    <p>- industrial PLC enables us to create systems with increased reliability, which processes scenario logic with
-        unlimited duration. PLC is original KNX device give you advantage of KNX technology.
+    <p>- industrial PLC enables us to create failsafe systems with increased reliability, which processes scenario logic with
+        unlimited duration. PLC with KNX inteface is original KNX device give you advantage of KNX technology. 
         <br />
-        - <a href="http://iridi.com/">Iridium</a> visualization server in different hardware designs enables us to
-        create functionally and graphically tailor-made interfaces,
+        - <a href="http://iridi.com/">Iridium</a> visualization server in different hardware implementation enables us to
+        create functionally and graphically tailor-made HMI,
         at the same time providing data firewall between KNX, Modbus TCP and AV/HTTP systems and allows to control any
-        IP devices with multi-language interface. </p>
+        IP devices with multi-language interface. Also we build different task on it: BYOD, MS Exchange integration, security and control system.</p>
     <br />
     <h3>KEY FUNCTIONS</h3>
     <br />
-    <p><b> - Business Rules Engine (BRE)</b> is KNXlevelUP module, which enables to separate all dependencies,
+    <p>- <b>  Business Rules Engine (BRE)</b> is KNXlevelUP module, which enables to separate all dependencies,
         procedures and scenarios into a standalone software or hardware module: simplifies and increases control
         quality of various modes and scenarios. *
         <br />
         <font style="font-size: small" , color="green">*in upcoming release (planed for Q1 of 2019 machine learning is
             going to be incorporated in this module) </font>
         <br />
-        - modular PLC is used as an interface between various engineering systems, which operate on different physical
-        buses: KNX, DALI, Modbus, RS-485 and other.
-        <br />
-        - logging system with collects, registers, stores and processes alarms and other events
-        <br />
-        - notifications through email, SMS, SIP call, voice alarm (via multiroom system), Telegram chat via the
-        telegram bot, system logging on user panel
-        <br />
-        - simplified procedure of system debugging for installers with logging in real time to Telegram-channel OR on
-        user panel with visualization.
-        <br />
-        - Bring Your Own Device (BYOD) system is essential technology for residential and commercial spaces based on
-        Iridium visualization.
-        It enables use of interfaces with limitations by roles and time on any smartphone or tablets (for example,
-        guest in a hotel room and use of conference room or mansions).
-        <br />
-        - MS Exchange Server integration - common solution in corporate segment for booking conference rooms from a
-        touch panel or by e-mail. Can be used together with BYOD
-        <br />
-        - storage of data in either local or cloud database with mathematical processing of data.
-        <br />
-        - Ad hoc reports from stored data
-        <br />
-        - A lot of iRidium drivers for variety of device types:
-        <br />
-        AV systems and receivers, projectors, TV, multiroom systems, SIP driver, fingerprint scanners and lot more AND
-        also native drivers: KNX, Modbus, HDL, SIP, Helvar, Crestron, AMX, BACNet
-        <br />
-        We keep developing drivers for new devices. We can also develop drivers for any IP devices on demand, if it has
-        published API.
-        <br />
+        <p class="fig">
+            <img src="pictures/SFC.png" width="500"  alt="SFC"> 
+            <font style="font-size: small" > <br/>
+                all factors affected on everyone lightgroup should be collected in only one place. Its rule from BRE for one lightgroup. <br/>
+                and everyone lamp, blind, motor and etc should be done the same way.
+            </font>
+        </p>
+        <p class="fig">
+            <img src="pictures/BRE_SFC.png" width="500"  alt="SFC"> 
+            <font style="font-size: small" > <br/>
+                the dependance of the rules can be vary difficult to reach aim 
+            </font>
+        </p>
+        <p>
+            - modular PLC is used as an interface between various engineering systems, which operate on different physical
+            buses: KNX, DALI, Modbus, RS-485, LONbus, BACnet and others.
+        <br /><p/>
+        <p>
+            - logging system with collects, registers, stores and processes alarms and other events. Every one alarm or event have to recieve they own priority level. Single notifications system for all events thru the different ways. 
+        <br /><p/>
+        <p>
+                - notifications through e-mail, SMS, SIP call, voice alarm (via multiroom system), Telegram chat via the
+                telegram bot, system logging on remote syslog sever OR syslog server on user panel
+            <br />
+        <p/>
+        <p>
+            - simplified procedure of system debugging for installers with logging in real time to Telegram-channel OR on
+            user panel with visualization.
+        <br /></p>
+        <p>- <b>Bring Your Own Device (BYOD)</b> system is essential technology for residential and commercial spaces based on
+                Iridium visualization.
+                It enables use of visualization with limitations by roles and duration on any smartphone or tablets (for example,
+                guest in a hotel room and use of conference room or mansions) on the fly. If you book meeting room, you can have visualization to control only this room during your reservation. Just scan QRcode
+        </p>
+        <br/>
+        <p>- <b>MS Exchange Server integration</b> - common solution in corporate segment for booking conference or meeting rooms from a
+            doorsign touch panel or by e-mail. Can be used together with BYOD. Fully integrated in BMS, allows interaction with security service (for passing meeting persons to the building) or IT support & technical service for assistance. 
+            <p class="fig">
+                <img src="pictures/iridi_exchange.png" width="500"  alt="Exchange"> 
+                <font style="font-size: small" > <br/>
+                    door sign screen touch panel for booking meeting room with extra function
+                </font>
+            </p>
+        </p>
+        <br /><p>
+            - storage of data in either local or cloud database with mathematical processing of it. 
+        <br /><p/><p>
+            - Ad hoc reports from stored data: analysis, charts, prediction.
+        <br /><p/><p>
+            - A lot of iRidium drivers for variety of device types:
+        <br /><p/><p>
+            AV systems and receivers, projectors, TV, audio multiroom systems, SIP driver, fingerprint scanners and lot more AND
+            also native drivers: KNX, Modbus, HDL, SIP, Helvar, Crestron, AMX, BACNet
+        <br /><p/><p>
+            We keep developing drivers for new devices. We can also develop drivers for any IP devices on demand, if it has
+            published API.
+        <br /></p>
     </p>
 
     <!--<br/><br/>
