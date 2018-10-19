@@ -5,6 +5,92 @@
     <meta charset="utf-8">
     <title>KNXpartners</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            /* Гарнитура текста */
+            font-size: 150%;
+            /* Размер шрифта в процентах */
+        }
+
+        p {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14pt;
+            /* Размер шрифта в пунктах */
+        }
+
+        .block1 {
+            width: 100%;
+            background: #ccc;
+            padding: 50px;
+            padding-right: 50px;
+            border: solid 0px white;
+            float: left;
+        }
+
+        .block_logo {
+            width: 20%;
+            background: whitesmoke;
+
+            border: 0px white;
+        }
+
+        .block_logo1 {
+            width: 100%;
+            background-color: lightgray;
+            margin-left: 20%;
+        }
+
+        .layer1 {
+            background-color: white;
+            /* Цвет фона */
+            width: 60%;
+            margin-left: 20px;
+            padding: 10px;
+        }
+
+        .layer2 {
+            margin-left: 20px;
+            /* Отступ слева */
+            background-color: rgba(204, 204, 204, 0.74);
+            /* Цвет фона */
+            padding: 10px;
+            /* Поля вокруг текста */
+            width: 1180px;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .header {
+            background-color: #cfcfcf;
+            margin-left: 20px;
+            width: 60%;
+        }
+
+        .gr {
+            background-color: #cfcfcf;
+        }
+
+        .logo {
+            background-color: #fff;
+            display: inline-block;
+            width: 153px;
+            height: 80px;
+        }
+
+        .main {
+            background-color: yellow;
+        }
+
+        P.fig {
+            text-align: center;
+            /* Выравнивание по центру */
+        }
+    </style>
 
 </head>
 <!-- -->
@@ -61,76 +147,78 @@
                     example of one rule for one lightgroup. <br />
                     and everyone lamp, blind, motor and etc should be done the same way.
                 </font>
-        </p>
-        <p class="fig">
+            </p>
+            <p class="fig">
                 <img src="pictures/BRE_SFC.png" width="500" alt="SFC">
                 <font style="font-size: small"> <br />
                     the rules can be complicated, but the main is one output
                 </font>
-        </p>
-        <p>
+            </p>
+            <p>
                 - modular PLC is used as an interface between various engineering systems, which operate on different
                 physical
                 buses: KNX, DALI, Modbus, RS-485, LONbus, BACnet and others.
-        <p />
-        <p>
-                - logging system with collects, registers, stores and processes alarms and other events. Every one
-                alarm or event have to recieve they own priority level. Single notifications system for all events
-                thru the different ways.
-                
-        <p />
-        <p>
-                    - notifications through e-mail, SMS, SIP call, voice alarm (via multiroom system), Telegram
-                    chat via the
-                    telegram bot, system logging on remote syslog sever OR syslog server on user panel
-        <p />
-        <p>
-                        - simplified procedure of system debugging for installers with logging in real time to
-                        Telegram-channel OR on
-                        user panel with visualization.
-        </p>
-        <p>- <b>Bring Your Own Device (BYOD)</b> system is essential technology for residential and
-                        commercial spaces based on
-                        Iridium visualization.
-                        It enables use of visualization with limitations by roles and duration on any smartphone or
-                        tablets (for example,
-                        guest in a hotel room and use of conference room or mansions) on the fly. If you book
-                        meeting room, you can have visualization to control only this room during your reservation.
-                        Just scan QRcode
-        </p>
-            
-        <p>- <b>MS Exchange Server integration</b> - common solution in corporate segment for booking
-                        conference or meeting rooms from a
-                        doorsign touch panel or by e-mail. Can be used together with BYOD. Fully integrated in BMS,
-                        allows interaction with security service (for passing meeting persons to the building) or
-                        IT support & technical service for assistance.
-                        <p class="fig">
-                            <img src="pictures/iridi_exchange.png" width="500" alt="Exchange">
-                            <font style="font-size: small"> <br />
-                                door sign screen touch panel for booking meeting room with extra function
-                            </font>
-        </p>
-            
-        <p>
-                - storage of data in either local or cloud database with mathematical processing of it.
-        <p />
-        <p>
-                - Ad hoc reports from stored data: analysis, charts, prediction.
-        <p />
-        <p>
-                - A lot of iRidium drivers for variety of device types:
-        <p />
-        <p>
-                AV systems and receivers, projectors, TV, audio multiroom systems, SIP driver,
-                fingerprint scanners and lot more AND
-                also native drivers: KNX, Modbus, HDL, SIP, Helvar, Crestron, AMX, BACNet
-        <p />
-        <p>
-                                        We keep developing drivers for new devices. We can also develop drivers for
-                                        any IP devices on demand, if it has
-                                        published API.
-        </p>
-            
+                <p />
+                <p>
+                    - logging system with collects, registers, stores and processes alarms and other events. Every one
+                    alarm or event have to recieve they own priority level. Single notifications system for all events
+                    thru the different ways.
+
+                    <p />
+                    <p>
+                        - notifications through e-mail, SMS, SIP call, voice alarm (via multiroom system), Telegram
+                        chat via the
+                        telegram bot, system logging on remote syslog sever OR syslog server on user panel
+                        <p />
+                        <p>
+                            - simplified procedure of system debugging for installers with logging in real time to
+                            Telegram-channel OR on
+                            user panel with visualization.
+                        </p>
+                        <p>- <b>Bring Your Own Device (BYOD)</b> system is essential technology for residential and
+                            commercial spaces based on
+                            Iridium visualization.
+                            It enables use of visualization with limitations by roles and duration on any smartphone or
+                            tablets (for example,
+                            guest in a hotel room and use of conference room or mansions) on the fly. If you book
+                            meeting room, you can have visualization to control only this room during your reservation.
+                            Just scan QRcode
+                        </p>
+
+                        <p>- <b>MS Exchange Server integration</b> - common solution in corporate segment for booking
+                            conference or meeting rooms from a
+                            doorsign touch panel or by e-mail. Can be used together with BYOD. Fully integrated in BMS,
+                            allows interaction with security service (for passing meeting persons to the building) or
+                            IT support & technical service for assistance.
+                            <p class="fig">
+                                <img src="pictures/iridi_exchange.png" width="500" alt="Exchange">
+                                <font style="font-size: small"> <br />
+                                    door sign screen touch panel for booking meeting room with extra function
+                                </font>
+                            </p>
+
+                            <p>
+                                - storage of data in either local or cloud database with mathematical processing of it.
+                                <p />
+                                <p>
+                                    - Ad hoc reports from stored data: analysis, charts, prediction.
+                                    <p />
+                                    <p>
+                                        - A lot of iRidium drivers for variety of device types:
+                                        <p />
+                                        <p>
+                                            AV systems and receivers, projectors, TV, audio multiroom systems, SIP
+                                            driver,
+                                            fingerprint scanners and lot more AND
+                                            also native drivers: KNX, Modbus, HDL, SIP, Helvar, Crestron, AMX, BACNet
+                                            <p />
+                                            <p>
+                                                We keep developing drivers for new devices. We can also develop drivers
+                                                for
+                                                any IP devices on demand, if it has
+                                                published API.
+                                            </p>
+
     </div>
 </body>
 
