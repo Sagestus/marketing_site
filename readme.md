@@ -33,7 +33,7 @@ procedures and scenarios into a standalone software or hardware module: simplifi
 
 - **MS Exchange Server integration** - common solution in corporate segment for booking conference or meeting rooms from a doorsign touch panel or by e-mail. Can be used together with BYOD. Fully integrated in BMS, allows interaction with security service (for passing meeting persons to the building) or IT support & technical service for assistance.
 
-    ![Exchange](pictures/iridi_exchange.png) _door sign screen touch panel for booking meeting room with extra function_
+    ![Exchange](pictures/iridi_exchange1.png) _door sign screen touch panel for booking meeting room with extra function_
 
 - storage of data in either local or cloud database with mathematical processing of it.
 
@@ -42,6 +42,7 @@ procedures and scenarios into a standalone software or hardware module: simplifi
 - A lot of iRidium drivers for variety of device types: AV systems and receivers, projectors, TV, audio multiroom systems, SIP driver, fingerprint scanners and lot more AND also native drivers: KNX, Modbus,  HDL, SIP, Helvar, Crestron, AMX, BACNet
 
 We keep developing drivers for new devices. We can also develop drivers for any IP devices on demand, if it has published API.
+
 
 
 
