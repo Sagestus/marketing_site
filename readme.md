@@ -41,8 +41,10 @@
 - A lot of iRidium drivers for variety of device types: AV systems and receivers, projectors, TV, audio multiroom systems, SIP driver, fingerprint scanners and lot more AND also native drivers: KNX, Modbus,  HDL, SIP, Helvar, Crestron, AMX, BACNet.
 
 - We keep developing drivers for new devices. We can also create drivers for any IP devices on demand, if it has published API.
+-----------------------------------
+*************************************
 
-- Also look at visu project its smart marketing obj to play with it & show it to your customer. Its work on real iRidium server for small or middle size projects. 
+Also look at visu project its smart marketing obj to play with it & show it to your customer. Its work on real iRidium server for small or middle size projects. 
 
  You must use two devices: 1 smartphone for control virtual mansion & second device – tablet or PC / Mac for feedback visualization in real time. Both devices connect to virtualization server iRidium via real IP and work together.
 
@@ -66,6 +68,9 @@ On the second panel will be reaction on you control.
     for smartphone: “KNXpartner_Visu_Phone”
 
     for feedback screen: virtualScreen_TabletOrPC (its aprox 70MB, download take couple minutes)
+
+[youtube_vurtualHouse_control](https://youtu.be/A2l571NroGU)
+
 
 
 
