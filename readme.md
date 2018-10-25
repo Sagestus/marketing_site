@@ -69,7 +69,7 @@ On the second panel will be reaction on you control.
 
     for feedback screen: virtualScreen_TabletOrPC (its aprox 70MB, download take couple minutes)
 
-[youtube_vurtualHouse_control](https://youtu.be/A2l571NroGU)
+example of control: [youtube_vurtualHouse_control](https://youtu.be/A2l571NroGU)
 
 
 
