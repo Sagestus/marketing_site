@@ -55,7 +55,7 @@ On the second panel will be reaction on you control.
 
 - [i3 pro for iOS in AppStore](https://itunes.apple.com/us/app/i3-pro/id1039770224?l=ru&ls=1&mt=8)
 - [i3 pro for Android in GooglePlay](https://play.google.com/store/apps/details?id=com.iridium.i3pro_v100)
-- [i3 pro for Windows](http://www.iridiummobile.net/redirects/?go=iRidium_SETUP_PRO)
+- [i3 pro for Windows](http://www.iridiummobile.net/redirects/?go=iRidium_SETUP_PRO) - direct link to download from site iRidi: [https://iridi.com/download/software/v3/](https://iridi.com/download/software/v3/)
 
 ### 2. Open i3pro and authorize in it with credentials:
     login:                       checkvisu@knx.partners
