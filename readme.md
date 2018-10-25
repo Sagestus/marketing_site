@@ -53,11 +53,9 @@ On the second panel will be reaction on you control.
 
 ### 1. Install iRidium i3pro app on a smart phone, tablet or PC:
 
-    -i3 pro for iOS in AppStore.
-
-    -i3 pro for Android in GooglePlay.
-
-    -i3 pro for Windows.
+- [i3 pro for iOS in AppStore](https://itunes.apple.com/us/app/i3-pro/id1039770224?l=ru&ls=1&mt=8)
+- [i3 pro for Android in GooglePlay](https://play.google.com/store/apps/details?id=com.iridium.i3pro_v100)
+- [i3 pro for Windows](http://www.iridiummobile.net/redirects/?go=iRidium_SETUP_PRO)
 
 ### 2. Open i3pro and authorize in it with credentials:
     login:                       checkvisu@knx.partners
