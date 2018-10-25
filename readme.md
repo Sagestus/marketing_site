@@ -33,7 +33,7 @@ procedures and scenarios into a standalone software or hardware module: simplifi
 
 - **MS Exchange Server integration** - common solution in corporate segment for booking conference or meeting rooms from a doorsign touch panel or by e-mail. Can be used together with BYOD. Fully integrated in BMS, allows interaction with security service (for passing meeting persons to the building) or IT support & technical service for assistance.
 
-    ![Exchange](pictures/iridi_exchange1.png) _door sign screen touch panel for booking meeting room with extra function_
+    ![Exchange](pictures/iridi_exchange1.png) _doorsign screen touch panel for booking meeting room with extra functions_
 
 - storage of data in either local or cloud database with mathematical processing of it.
 
